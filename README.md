@@ -1,5 +1,5 @@
 # Ex01 Portfolio
-## Date:
+## Date:27.10.2026
 
 ## AIM
 To create a Portfolio using HTML and CSS.
@@ -48,10 +48,120 @@ Deploy the Portfolio.
 Upload to GitHub Pages for free hosting.
 
 ## PROGRAM
+```
 
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Preetham's Portfolio</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            text-align: center;
+            margin: 40px;
+            color: #333;
+        }
+
+        img {
+            width: 160px;
+            height: 160px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid white;
+        }
+
+        h1 {
+            color: #222;
+        }
+
+        h2 {
+            color: #444;
+        }
+
+        p {
+            font-size: 17px;
+            line-height: 1.6;
+        }
+
+        section {
+            margin: 30px auto;
+            max-width: 600px;
+        }
+
+        hr {
+            width: 60%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <img src="passport size photo.jpeg" alt="My Profile Photo">
+
+    <h1>Preetham Kumar</h1>
+
+    <h3>Engineering Student | Programmer | Technology Enthusiast</h3>
+
+    <hr>
+
+    <section>
+        <h2>About Me</h2>
+
+        <p>
+            Hello! My name is Preetham Kumar. I am an engineering student
+            passionate about technology, programming and innovation.
+            I enjoy learning new technologies, exploring creative ideas
+            and developing my technical skills.
+        </p>
+
+        <p>
+            I have an interest in software development, web technologies
+            and problem-solving. I enjoy working with programming languages
+            such as C and Python, and I am also exploring web development
+            using HTML, CSS and JavaScript.
+        </p>
+
+        <p>
+            My goal is to continuously improve my knowledge, gain practical
+            experience and become a skilled software developer.
+            I believe in learning something new every day and taking on
+            challenges that help me grow.
+        </p>
+    </section>
+
+    <hr>
+
+    <section>
+        <h2>My Skills</h2>
+        <p>C Programming | Python | HTML | CSS | JavaScript | Django</p>
+    </section>
+
+    <hr>
+
+    <section>
+        <h2>My Projects</h2>
+        <p>Personal Portfolio</p>
+        <p>Student Management System</p>
+        <p>Role-Based Login System using Django</p>
+    </section>
+
+    <hr>
+
+    <section>
+        <h2>Contact Me</h2>
+        <p>Email: kpreetham51@gmail.com</p>
+        <p>GitHub: PreethamKumarAshokKumar</p>
+    </section>
+
+</body>
+</html>
+
+```
 
 ## OUTPUT
-
+![alt text](<../Screenshot 2026-10-27 134317.png>)
 
 ## RESULT
 The program for creating Portfolio using HTML and CSS is executed successfully.
